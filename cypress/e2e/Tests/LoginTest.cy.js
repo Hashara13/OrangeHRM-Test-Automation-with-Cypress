@@ -8,7 +8,7 @@ beforeEach(function () {
   );
 });
 describe("All_login_Tests", function () {
-  it("Login_test_01", function () {
+  it.only("Login_test_01", function () {
     loginPage.InputUsername("Admin");
     loginPage.InputPassword("admin123");
     loginPage.PressLoginButton();

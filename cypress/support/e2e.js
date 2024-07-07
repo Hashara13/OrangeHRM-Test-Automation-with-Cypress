@@ -15,6 +15,9 @@
 
 // Import commands.js using ES2015 syntax:
 import './commands'
+import 'cypress-mochawesome-reporter/register';
+import 'cypress-file-upload';
+
 beforeEach(function () {
     cy.log(
       "OrangeHRM lginTest"
